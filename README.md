@@ -1,4 +1,4 @@
-# SubwayDelayDashboard
+# Subway Delay Dashboard
 
 Heat map Project - JavaScript(D3.js, Node.js), Bootstrap, Rest API, HTML5, CSS3, and JSON and csv files.
 

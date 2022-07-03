@@ -1,0 +1,347 @@
+[
+    {
+        "incidentid": 1,
+        "nummonthly": 4,
+        "percentoday": 4
+    },
+    {
+        "incidentid": 2,
+        "nummonthly": 3,
+        "percentoday": 0.75
+    },
+    {
+        "incidentid": 3,
+        "nummonthly": 1,
+        "percentoday": 0.143
+    },
+    {
+        "incidentid": 4,
+        "nummonthly": 1,
+        "percentoday": 0.125
+    },
+    {
+        "incidentid": 5,
+        "nummonthly": 1,
+        "percentoday": 0.111
+    },
+    {
+        "incidentid": 6,
+        "nummonthly": 1,
+        "percentoday": 0.1
+    },
+    {
+        "incidentid": 7,
+        "nummonthly": 1,
+        "percentoday": 0.091
+    },
+    {
+        "incidentid": 8,
+        "nummonthly": 1,
+        "percentoday": 0.083
+    },
+    {
+        "incidentid": 9,
+        "nummonthly": 2,
+        "percentoday": 0.154
+    },
+    {
+        "incidentid": 10,
+        "nummonthly": 9,
+        "percentoday": 0.6
+    },
+    {
+        "incidentid": 11,
+        "nummonthly": 9,
+        "percentoday": 0.375
+    },
+    {
+        "incidentid": 12,
+        "nummonthly": 12,
+        "percentoday": 0.364
+    },
+    {
+        "incidentid": 13,
+        "nummonthly": 6,
+        "percentoday": 0.133
+    },
+    {
+        "incidentid": 14,
+        "nummonthly": 6,
+        "percentoday": 0.118
+    },
+    {
+        "incidentid": 15,
+        "nummonthly": 5,
+        "percentoday": 0.088
+    },
+    {
+        "incidentid": 16,
+        "nummonthly": 15,
+        "percentoday": 0.242
+    },
+    {
+        "incidentid": 17,
+        "nummonthly": 26,
+        "percentoday": 0.338
+    },
+    {
+        "incidentid": 18,
+        "nummonthly": 38,
+        "percentoday": 0.369
+    },
+    {
+        "incidentid": 19,
+        "nummonthly": 38,
+        "percentoday": 0.27
+    },
+    {
+        "incidentid": 20,
+        "nummonthly": 20,
+        "percentoday": 0.112
+    },
+    {
+        "incidentid": 21,
+        "nummonthly": 54,
+        "percentoday": 0.271
+    },
+    {
+        "incidentid": 22,
+        "nummonthly": 88,
+        "percentoday": 0.348
+    },
+    {
+        "incidentid": 23,
+        "nummonthly": 99,
+        "percentoday": 0.29
+    },
+    {
+        "incidentid": 24,
+        "nummonthly": 157,
+        "percentoday": 0.357
+    },
+    {
+        "incidentid": 25,
+        "nummonthly": 276,
+        "percentoday": 0.462
+    },
+    {
+        "incidentid": 26,
+        "nummonthly": 131,
+        "percentoday": 0.15
+    },
+    {
+        "incidentid": 27,
+        "nummonthly": 367,
+        "percentoday": 0.366
+    },
+    {
+        "incidentid": 28,
+        "nummonthly": 100,
+        "percentoday": 0.073
+    },
+    {
+        "incidentid": 29,
+        "nummonthly": 620,
+        "percentoday": 0.421
+    },
+    {
+        "incidentid": 30,
+        "nummonthly": 701,
+        "percentoday": 0.335
+    },
+    {
+        "incidentid": 31,
+        "nummonthly": 617,
+        "percentoday": 0.221
+    },
+    {
+        "incidentid": 32,
+        "nummonthly": 634,
+        "percentoday": 0.186
+    },
+    {
+        "incidentid": 33,
+        "nummonthly": 646,
+        "percentoday": 0.16
+    },
+    {
+        "incidentid": 34,
+        "nummonthly": 6,
+        "percentoday": 0.157
+    },
+    {
+        "incidentid": 35,
+        "nummonthly": 0,
+        "percentoday": 0.154
+    },
+    {
+        "incidentid": 36,
+        "nummonthly": 1,
+        "percentoday": 0.188
+    },
+    {
+        "incidentid": 37,
+        "nummonthly": 1,
+        "percentoday": 0.149
+    },
+    {
+        "incidentid": 38,
+        "nummonthly": 1,
+        "percentoday": 0.125
+    },
+    {
+        "incidentid": 39,
+        "nummonthly": 1670,
+        "percentoday": 0.174
+    },
+    {
+        "incidentid": 40,
+        "nummonthly": 1254,
+        "percentoday": 0.111
+    },
+    {
+        "incidentid": 41,
+        "nummonthly": 1367,
+        "percentoday": 0.109
+    },
+    {
+        "incidentid": 42,
+        "nummonthly": 1608,
+        "percentoday": 0.116
+    },
+    {
+        "incidentid": 43,
+        "nummonthly": 1155,
+        "percentoday": 0.074
+    },
+    {
+        "incidentid": 44,
+        "nummonthly": 12,
+        "percentoday": 0.074
+    },
+    {
+        "incidentid": 45,
+        "nummonthly": 13,
+        "percentoday": 0.078
+    },
+    {
+        "incidentid": 46,
+        "nummonthly": 14,
+        "percentoday": 0.077
+    },
+    {
+        "incidentid": 47,
+        "nummonthly": 13,
+        "percentoday": 0.067
+    },
+    {
+        "incidentid": 48,
+        "nummonthly": 11,
+        "percentoday": 0.053
+    },
+    {
+        "incidentid": 49,
+        "nummonthly": 10,
+        "percentoday": 0.046
+    },
+    {
+        "incidentid": 50,
+        "nummonthly": 12,
+        "percentoday": 0.053
+    },
+    {
+        "incidentid": 51,
+        "nummonthly": 13,
+        "percentoday": 0.054
+    },
+    {
+        "incidentid": 52,
+        "nummonthly": 13,
+        "percentoday": 0.049
+    },
+    {
+        "incidentid": 53,
+        "nummonthly": 17,
+        "percentoday": 0.06
+    },
+    {
+        "incidentid": 54,
+        "nummonthly": 17,
+        "percentoday": 0.06
+    },
+    {
+        "incidentid": 55,
+        "nummonthly": 14,
+        "percentoday": 0.046
+    },
+    {
+        "incidentid": 56,
+        "nummonthly": 14,
+        "percentoday": 0.043
+    },
+    {
+        "incidentid": 57,
+        "nummonthly": 20,
+        "percentoday": 0.059
+    },
+    {
+        "incidentid": 58,
+        "nummonthly": 15,
+        "percentoday": 0.043
+    },
+    {
+        "incidentid": 59,
+        "nummonthly": 17,
+        "percentoday": 0.046
+    },
+    {
+        "incidentid": 60,
+        "nummonthly": 19,
+        "percentoday": 0.048
+    },
+    {
+        "incidentid": 61,
+        "nummonthly": 17,
+        "percentoday": 0.042
+    },
+    {
+        "incidentid": 62,
+        "nummonthly": 14,
+        "percentoday": 0.033
+    },
+    {
+        "incidentid": 63,
+        "nummonthly": 15,
+        "percentoday": 0.034
+    },
+    {
+        "incidentid": 64,
+        "nummonthly": 16,
+        "percentoday": 0.034
+    },
+    {
+        "incidentid": 65,
+        "nummonthly": 15,
+        "percentoday": 0.031
+    },
+    {
+        "incidentid": 66,
+        "nummonthly": 1,
+        "percentoday": 0.031
+    },
+    {
+        "incidentid": 67,
+        "nummonthly": 16,
+        "percentoday": 0.032
+    },
+    {
+        "incidentid": 68,
+        "nummonthly": "",
+        "percentoday": ""
+    },
+    {
+        "incidentid": 69,
+        "nummonthly": "",
+        "percentoday": ""
+    }
+]

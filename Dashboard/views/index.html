@@ -1,0 +1,166 @@
+<!-- SUBWAY HEAT MAP PROJECT
+CREATED BY WONHWA (CHRISTINE) LEE -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>ABC Subway Delay System</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/map.css">
+  <link rel="icon" type="image/png" href="images/train.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- d3 -->
+  <script data-require="d3@3.5.3" data-semver="3.5.3" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+  <!------------------------------ Navigation bar -------------------------------->
+  <div class=" mb-1">
+    <nav class="navbar navbar-dark sticky-top navbar-expand-lg">
+      <!-- logo -->
+      <a class="navbar-brand" href="#">
+        <img src="/images/customlogo4.jpg" width="60" height="45" class="d-inline-block align-top"
+          style="border-radius: 40px;" alt="logo">
+        ABC Subway Delay Dashboard
+      </a>
+      <!-- date picker -->
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+      <!-- dark mode -->
+      <ul class="navbar-nav pl-3">
+        <li class="nav-item text-nowrap">
+          <div class="d-none d-lg-block">
+            <a href="https://github.com/thepinkcacao/SubwayHeatmap" roll="button" class="btn btn-outline-light"
+              style=" background-color: rgb(12, 12, 14); margin-left: 3%; color: rgb(66, 149, 243);">To view GitHub source code</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- chart contents : e.g., subway heatmap, line graph, bar chart-->
+  <div class="container-fluid">
+    <!------------------------------row ---------------------------------->
+    <div class="row">
+      <div class="col-md-3" id="col-space">
+        <div class="container--wrap1 ">
+          <!-- <div id="delay-min">
+            <p>Total Subway Delay</p> -->
+          <div id="total-min"></div>
+          <!-- </div> -->
+          <div class="row">
+            <div class="col-md-12">
+              <div id="pieChart">
+                <!-- <div id="delay-incident"> -->
+
+                <div id="total-daily-incident"></div>
+                <!-- </div> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- subway heat map -->
+      <div class="col-md-9 heatmap container--wrap1" id="subway_map col-space">
+      </div>
+      <div class="w-100"></div>
+
+      <!-- line graph -->
+      <div class="col-md-7" id="col-space">
+        <div class="container--wrap2 ">
+          <div id="lineChart">
+            <h6>2020 MONTHLY DELAY</h6>
+            <svg id="my-legend-line" height=28 width=200></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- bar chart -->
+      <div class="col-md-5" id="col-space">
+        <div class="container--wrap2 ">
+          <div id="barChart">
+            <h6 style="padding-top: 5px; padding-left: 5px; text-align: center;"> ANNUAL DELAY</h6>
+            <div class='radio'>
+              <label class='radio-inline'>
+                <input type="radio" name="linetype" value="YUS" onclick='change(this.value)'> YUS
+              </label>
+              <label class='radio-inline'>
+                <input type="radio" name="linetype" value="BD" onclick='change(this.value)'> BD
+              </label>
+              <label class='radio-inline'>
+                <input type="radio" name="linetype" value="both" onclick='change(this.value)' checked> Both
+                Lines </label>
+            </div>
+            <svg id="my-legend-bar" height=28 width=200></svg>
+          </div>
+        </div>
+      </div>
+      <div class="w-100"></div>
+
+      <!-- multi charts -->
+      <div class="col-md-12 ">
+        <div class="container--wrap2">
+          <div id="multiple-charts" class=".hidden-xs">
+            <h6 style="text-align: center;"> REASONS FOR SUBWAY DELAY</h6>
+            <p style="text-align: center;">(ABC transit data for 2004 through 2015)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <span><footer>&copy; Copyright 2020 Christine L</footer>
+      </span>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/d3@4.6.0"></script>
+  <script src="https://unpkg.com/d3fc@12.1.0"></script>
+
+  <!-- include javascript -->
+  <script type="text/javascript" src="/js/heatmap.js"></script>
+  <script type="text/javascript" src="/js/barchart.js"></script>
+  <script type="text/javascript" src="/js/linegraph.js"></script>
+  <script type="text/javascript" src="/js/updated_info.js"></script>
+  <script type="text/javascript" src="/js/dataTable.js"></script>
+  <script type="text/javascript" src="/js/pieChart.js"></script>
+  <script type="text/javascript" src="/js/category_graph.js"></script>
+
+  <script>
+    //dark mode
+    function darkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+    $('#datepicker').datepicker({
+      uiLibrary: 'bootstrap4'
+    });
+  </script>
+
+</body>
+
+</html>

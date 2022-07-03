@@ -1,0 +1,278 @@
+[
+    {
+        "station": "Kipling",
+        "min": 122
+    },
+    {
+        "station": "Islington",
+        "min": 15
+    },
+    {
+        "station": "Royal York",
+        "min": 66
+    },
+    {
+        "station": "Old Mill",
+        "min": 71
+    },
+    {
+        "station": "Jane",
+        "min": 95
+    },
+    {
+        "station": "Runnymede",
+        "min": 126
+    },
+    {
+        "station": "High Park",
+        "min": 50
+    },
+    {
+        "station": "Keele",
+        "min": 70
+    },
+    {
+        "station": "Dundas West",
+        "min": 26
+    },
+    {
+        "station": "Lansdowne",
+        "min": 59
+    },
+    {
+        "station": "Dufferin",
+        "min": 28
+    },
+    {
+        "station": "Ossington",
+        "min": 15
+    },
+    {
+        "station": "Christie",
+        "min": 67
+    },
+    {
+        "station": "Bathurst",
+        "min": 100
+    },
+    {
+        "station": "Spanida-BD",
+        "min": 125
+    },
+    {
+        "station": "St George-BD",
+        "min": 59
+    },
+    {
+        "station": "Bay",
+        "min": 46
+    },
+    {
+        "station": "Bloor-Yonge-BD",
+        "min": 58
+    },
+    {
+        "station": "Sherbourne",
+        "min": 23
+    },
+    {
+        "station": "Castle Frank",
+        "min": 8
+    },
+    {
+        "station": "Broadview",
+        "min": 15
+    },
+    {
+        "station": "Chester",
+        "min": 6
+    },
+    {
+        "station": "Pape",
+        "min": 100
+    },
+    {
+        "station": "Donlands",
+        "min": 55
+    },
+    {
+        "station": "Greenwood",
+        "min": 60
+    },
+    {
+        "station": "Coxwell",
+        "min": 50
+    },
+    {
+        "station": "Woodbine",
+        "min": 58
+    },
+    {
+        "station": "Main Street",
+        "min": 50
+    },
+    {
+        "station": "Victoria Park",
+        "min": 16
+    },
+    {
+        "station": "Warden",
+        "min": 126
+    },
+    {
+        "station": "Kennedy",
+        "min": 100
+    },
+    {
+        "station": "Vaughan Metropolitan Centre",
+        "min": 122
+    },
+    {
+        "station": "Highway 407",
+        "min": 55
+    },
+    {
+        "station": "Pioneer Village",
+        "min": 85
+    },
+    {
+        "station": "York University",
+        "min": 15
+    },
+    {
+        "station": "Finch West",
+        "min": 69
+    },
+    {
+        "station": "Downsview Park",
+        "min": 100
+    },
+    {
+        "station": "Sheppard West",
+        "min": 75
+    },
+    {
+        "station": "Willson",
+        "min": 6
+    },
+    {
+        "station": "Yorkdale",
+        "min": 5
+    },
+    {
+        "station": "Lawrence West",
+        "min": 106
+    },
+    {
+        "station": "Glencairn",
+        "min": 200
+    },
+    {
+        "station": " Eglinton West",
+        "min": 150
+    },
+    {
+        "station": "St Clair West",
+        "min": 80
+    },
+    {
+        "station": "Dupont",
+        "min": 15
+    },
+    {
+        "station": "Spadina-YUS",
+        "min": 6
+    },
+    {
+        "station": "St George-YUS",
+        "min": 96
+    },
+    {
+        "station": "Museum",
+        "min": 100
+    },
+    {
+        "station": "Queen's Park",
+        "min": 55
+    },
+    {
+        "station": "St Patrick ",
+        "min": 16
+    },
+    {
+        "station": "Osgoode",
+        "min": 5
+    },
+    {
+        "station": "St Andrew",
+        "min": 16
+    },
+    {
+        "station": "Union",
+        "min": 90
+    },
+    {
+        "station": "King",
+        "min": 125
+    },
+    {
+        "station": "Queen",
+        "min": 88
+    },
+    {
+        "station": "Dundas",
+        "min": 15
+    },
+    {
+        "station": "College",
+        "min": 6
+    },
+    {
+        "station": "Wellesley",
+        "min": 190
+    },
+    {
+        "station": "Bloor-Yonge YUS",
+        "min": 58
+    },
+    {
+        "station": "Rosedale",
+        "min": 85
+    },
+    {
+        "station": "Summerhill",
+        "min": 56
+    },
+    {
+        "station": "St Clair",
+        "min": 35
+    },
+    {
+        "station": "Davisville",
+        "min": 16
+    },
+    {
+        "station": "Eglinton",
+        "min": 66
+    },
+    {
+        "station": "Lawrence",
+        "min": 1
+    },
+    {
+        "station": "York Mills",
+        "min": 5
+    },
+    {
+        "station": "Sheppard-Yonge",
+        "min": 36
+    },
+    {
+        "station": "North York Centre",
+        "min": 135
+    },
+    {
+        "station": "Finch",
+        "min": 100
+    }
+]

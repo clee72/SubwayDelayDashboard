@@ -1,0 +1,278 @@
+html,
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #343a40;
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  background-color: #0e3050;
+}
+
+/* Charts contents */
+
+.container-fluid {
+  background-color: rgb(228, 232, 235);
+  /* background-color: rgb(156, 153, 148) */
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#col-space {
+  padding: 10px;
+}
+
+.container--wrap1 {
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border-radius: 4px;
+  padding: 1%;
+  color: rgb(10, 9, 9);
+  height: 100%;
+}
+
+.container--wrap2 {
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border-radius: 4px;
+  padding: 1%;
+  color: rgb(10, 9, 9);
+  height: 100%;
+}
+
+/* resonsive chart  e.g, bar chart, line graph*/
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+#total-min,
+#total-daily-incident {
+  color: #343a40;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  /* padding: 3px; */
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+  border-bottom: #bbbec2 solid 1px;
+}
+
+/* ///////////////////////////////////////////////
+////////////////////HEAT MAP///////////////////
+////////////////////////////////////////////// */
+
+.heatmap {
+  position: absolute;
+}
+
+/* TTC subway bubble map */
+
+.heatmap svg {
+  background-image: url("../images/SubwayFutureMap_gray.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.bubbles {
+  stroke-width: 1px;
+  stroke: rgb(190, 10, 49);
+}
+
+.bubbles:hover {
+  stroke: rgb(255, 26, 26);
+  stroke-width: 3px;
+}
+
+.tooltip {
+  background-color: rgb(190, 10, 49);
+  border-radius: 0.1rem;
+  padding: 0.1rem;
+  color: white;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(230, 223, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* ///////////////////////////////////////////////
+////////////////////BAR CHART///////////////////
+////////////////////////////////////////////// */
+
+#barChart {
+  color: #343a40;
+}
+
+.radio {
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.svg-containerBar {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+/* ///////////////////////////////////////////////
+////////////////////LINE GRAPH///////////////////
+////////////////////////////////////////////// */
+
+#lineChart h6 {
+  text-align: center;
+  color: #343a40;
+}
+
+.svg-containerLine {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.dot {
+  opacity: 0.5;
+  fill: grey;
+}
+
+line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+/* .axis path, */
+/* .axis line */
+/* .y,
+.yAxis path,
+.xAxis path,
+.yAxis,
+.xAxis line,
+.xAxis  */
+/* {
+  fill: none;
+  stroke: black;
+  /* stroke-width: 2px; */
+/* shape-rendering: crispEdges; */
+/* } */
+
+div.lineTooltip {
+  position: absolute;
+  text-align: center;
+  height: 20px;
+  padding: 2px;
+  margin-left: 1px;
+  margin-top: 1px;
+  font: 0.8rem sans-serif;
+  background: black;
+  border: 1px;
+  border-radius: 2px;
+  pointer-events: none;
+  color: white;
+}
+
+/* /////////////////////PIE CHART///////////////////// */
+
+.arc text {
+  font: 18px sans-serif;
+  text-anchor: middle;
+
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.toolTipPie {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+
+#pieChart {
+  position: relative;
+  display: block;
+  z-index: 4;
+}
+
+#pieChart svg, g {
+  display: block;
+  margin: auto;
+}
+
+/* ////////////////////////////////////////// */
+
+.area {
+  fill: #2d8caf;
+  /* fill: #064269; */
+  /* fill: #5f9963; */
+}
+#multiple-charts > div {
+  display: inline-block;
+  width: 25%;
+  height: 200px;
+}
+
+#multiple-charts {
+  color: #343a40;
+}
+#multiple-charts > .x-axis {
+  height: 1.5em !important;
+}
+.gridline-x {
+  stroke: white;
+}
+
+d3fc-svg svg:not(:root){
+  overflow: visible;
+}
+
+@media screen and (max-width: 736px) {
+  #multiple-charts {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  #multiple-charts {
+    display: relative;
+    padding: 2px;
+  }
+}
+
+/*footer*/
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #0e3050;
+  color: whitesmoke;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+}

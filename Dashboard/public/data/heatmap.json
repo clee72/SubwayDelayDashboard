@@ -1,0 +1,417 @@
+[
+    {
+        "station": "Kipling",
+        "x": -4.47,
+        "y": 5.65,
+        "min": 122
+    },
+    {
+        "station": "Islington",
+        "x": -3.975,
+        "y": 5.65,
+        "min": 15
+    },
+    {
+        "station": "Royal York",
+        "x": -3.488,
+        "y": 5.65,
+        "min": 66
+    },
+    {
+        "station": "Old Mill",
+        "x": -3.00,
+        "y": 5.65,
+        "min": 71
+    },
+    {
+        "station": "Jane",
+        "x": -2.52,
+        "y": 5.65,
+        "min": 95
+    },
+    {
+        "station": "Runnymede",
+        "x": -2.03,
+        "y": 5.65,
+        "min": 126
+    },
+    {
+        "station": "High Park",
+        "x": -1.54,
+        "y": 5.65,
+        "min": 50
+    },
+    {
+        "station": "Keele",
+        "x": -1.05,
+        "y": 5.65,
+        "min": 70
+    },
+    {
+        "station": "Dundas West",
+        "x": -0.56,
+        "y": 5.65,
+        "min": 26
+    },
+    {
+        "station": "Lansdowne",
+        "x": -0.075,
+        "y": 5.65,
+        "min": 59
+    },
+    {
+        "station": "Dufferin",
+        "x": 0.410,
+        "y": 5.65,
+        "min": 28
+    },
+    {
+        "station": "Ossington",
+        "x": 0.899,
+        "y": 5.65,
+        "min": 15
+    },
+    {
+        "station": "Christie",
+        "x": 1.390,
+        "y": 5.65,
+        "min": 67
+    },
+    {
+        "station": "Bathurst",
+        "x": 1.88,
+        "y": 5.65,
+        "min": 100
+    },
+    {
+        "station": "Spanida-BD",
+        "x": 2.535,
+        "y": 5.65,
+        "min": 125
+    },
+    {
+        "station": "St George-BD",
+        "x": 3.486,
+        "y": 5.65,
+        "min": 59
+    },
+    {
+        "station": "Bay",
+        "x": 4.141,
+        "y": 5.65,
+        "min": 46
+    },
+    {
+        "station": "Bloor-Yonge-BD",
+        "x": 4.802,
+        "y": 5.65,
+        "min": 58
+    },
+    {
+        "station": "Sherbourne",
+        "x": 5.78,
+        "y": 5.65,
+        "min": 23
+    },
+    {
+        "station": "Castle Frank",
+        "x": 6.560,
+        "y": 5.65,
+        "min": 8
+    },
+    {
+        "station": "Broadview",
+        "x": 7.03,
+        "y": 5.65,
+        "min": 15
+    },
+    {
+        "station": "Chester",
+        "x": 7.534,
+        "y": 5.65,
+        "min": 6
+    },
+    {
+        "station": "Pape",
+        "x": 8.018,
+        "y": 5.65,
+        "min": 100
+    },
+    {
+        "station": "Donlands",
+        "x": 8.51,
+        "y": 5.65,
+        "min": 55
+    },
+    {
+        "station": "Greenwood",
+        "x": 8.999,
+        "y": 5.65,
+        "min": 60
+    },
+    {
+        "station": "Coxwell",
+        "x": 9.487,
+        "y": 5.65,
+        "min": 50
+    },
+    {
+        "station": "Woodbine",
+        "x": 9.969,
+        "y": 5.65,
+        "min": 58
+    },
+    {
+        "station": "Main Street",
+        "x": 10.466,
+        "y": 5.65,
+        "min": 50
+    },
+    {
+        "station": "Victoria Park",
+        "x": 11.13,
+        "y": 4.972,
+        "min": 16
+    },
+    {
+        "station": "Warden",
+        "x": 11.83,
+        "y": 4.3,
+        "min": 126
+    },
+    {
+        "station": "Kennedy",
+        "x": 12.51,
+        "y": 3.613,
+        "min": 100
+    },
+    {
+        "station": "Vaughan Metropolitan Centre",
+        "x": -2.51,
+        "y": -0.358,
+        "min": 122
+    },
+    {
+        "station": "Highway 407",
+        "x": -2.51,
+        "y": 0.128,
+        "min": 55
+    },
+    {
+        "station": "Pioneer Village",
+        "x": -1.895,
+        "y": 0.485,
+        "min": 85
+    },
+    {
+        "station": "York University",
+        "x": -1.28,
+        "y": 0.84,
+        "min": 15
+    },
+    {
+        "station": "Finch West",
+        "x": -0.66,
+        "y": 1.192,
+        "min": 69
+    },
+    {
+        "station": "Downsview Park",
+        "x": -0.044,
+        "y": 1.55,
+        "min": 100
+    },
+    {
+        "station": "Sheppard West",
+        "x": 0.572,
+        "y": 1.909,
+        "min": 75
+    },
+    {
+        "station": "Willson",
+        "x": 0.572,
+        "y": 2.39,
+        "min": 6
+    },
+    {
+        "station": "Yorkdale",
+        "x": 0.572,
+        "y": 2.70,
+        "min": 5
+    },
+    {
+        "station": "Lawrence West",
+        "x": 0.572,
+        "y": 3.008,
+        "min": 106
+    },
+    {
+        "station": "Glencairn",
+        "x": 0.572,
+        "y": 3.31,
+        "min": 200
+    },
+    {
+        "station": " Eglinton West",
+        "x": 0.572,
+        "y": 3.616,
+        "min": 150
+    },
+    {
+        "station": "St Clair West",
+        "x": 1.881,
+        "y": 4.37,
+        "min": 80
+    },
+    {
+        "station": "Dupont",
+        "x": 2.535,
+        "y": 4.745,
+        "min": 15
+    },
+    {
+        "station": "Spadina-YUS",
+        "x": 2.535,
+        "y": 5.42,
+        "min": 6
+    },
+    {
+        "station": "St George-YUS",
+        "x": 3.486,
+        "y": 5.65,
+        "min": 96
+    },
+    {
+        "station": "Museum",
+        "x": 3.48,
+        "y": 6.265,
+        "min": 100
+    },
+    {
+        "station": "Queen's Park",
+        "x": 3.48,
+        "y": 6.645,
+        "min": 55
+    },
+    {
+        "station": "St Patrick ",
+        "x": 3.48,
+        "y": 7.025,
+        "min": 16
+    },
+    {
+        "station": "Osgoode",
+        "x": 3.48,
+        "y": 7.401,
+        "min": 5
+    },
+    {
+        "station": "St Andrew",
+        "x": 3.48,
+        "y": 7.781,
+        "min": 16
+    },
+    {
+        "station": "Union",
+        "x": 4.141,
+        "y": 8.439,
+        "min": 90
+    },
+    {
+        "station": "King",
+        "x": 4.802,
+        "y": 7.781,
+        "min": 125
+    },
+    {
+        "station": "Queen",
+        "x": 4.802,
+        "y": 7.401,
+        "min": 88
+    },
+    {
+        "station": "Dundas",
+        "x": 4.802,
+        "y": 7.025,
+        "min": 15
+    },
+    {
+        "station": "College",
+        "x": 4.802,
+        "y": 6.645,
+        "min": 6
+    },
+    {
+        "station": "Wellesley",
+        "x": 4.802,
+        "y": 6.265,
+        "min": 190
+    },
+    {
+        "station": "Bloor-Yonge YUS",
+        "x": 4.802,
+        "y": 5.65,
+        "min": 58
+    },
+    {
+        "station": "Rosedale",
+        "x": 4.802,
+        "y": 5.129,
+        "min": 85
+    },
+    {
+        "station": "Summerhill",
+        "x": 4.802,
+        "y": 4.745,
+        "min": 56
+    },
+    {
+        "station": "St Clair",
+        "x": 4.802,
+        "y": 4.374,
+        "min": 35
+    },
+    {
+        "station": "Davisville",
+        "x": 4.802,
+        "y": 3.997,
+        "min": 16
+    },
+    {
+        "station": "Eglinton",
+        "x": 4.802,
+        "y": 3.616,
+        "min": 66
+    },
+    {
+        "station": "Lawrence",
+        "x": 4.802,
+        "y": 3.00,
+        "min": 1
+    },
+    {
+        "station": "York Mills",
+        "x": 4.802,
+        "y": 2.387,
+        "min": 5,
+        "r": 1
+    },
+    {
+        "station": "Sheppard-Yonge",
+        "x": 4.802,
+        "y": 1.903,
+        "min": 36
+    },
+    {
+        "station": "North York Centre",
+        "x": 4.802,
+        "y": 1.389,
+        "min": 135
+    },
+    {
+        "station": "Finch",
+        "x": 4.802,
+        "y": 0.95,
+        "min": 100
+    }
+]

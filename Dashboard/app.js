@@ -3,7 +3,7 @@ var app = express();
 var router = express.Router();
 var path = __dirname + '/views/';
 
-//middleware
+// middleware
 app.use('/', router);
 app.use(express.static(__dirname + '/public'));
 
@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
   });
 
 // app.use('*',function(req,res){
-//   res.sendFile('Error404: Not Found');
+//  res.sendFile('Error404: Not Found');
 // })
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
